@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./js/scripts.js" defer></script>
+    <script src="./js/Entidades.js" defer></script>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="./img/LogoAutos.png" />
+    <title>Ultra Cars</title>
+</head>
+
+
+<body>
+    <header>
+        <a href="./"><img src="./img/LogoAutos.png" alt="logo empresa" id="logo"></a>
+        <nav>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./anuncios.html">Anuncios</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="miSeccion">
+
+        <h1>Administracion</h1>
+
+        <img src="./img/autos1.jpg" alt="Imagen Principal" id="imgPpal">
+
+        <form action="#" id="form">
+            <fieldset>
+                <legend>Informacion de Anuncio</legend>
+
+                <div id="tresPrimeros"></div>
+
+                <div>
+                    <label id="lblId" for="idAnuncio" hidden>Id</label>
+                    <input type="text" id="idAnuncio" name="idAnuncio" hidden disabled>
+                </div>
+
+                <div>
+                    <label for="txtTitulo">Titulo</label>
+                    <input placeholder="Titulo" type="text" id="txtTitulo" name="titulo" required></input>
+                </div>
+
+                <div>
+                    <label for="txtTransaccion">Transaccion</label>
+                    <div id="divTransaccion">
+                        <select id="txtTransaccion" name="transaccion" required>
+                            <option value="Venta">Venta</option>
+                            <option value="Alquiler">Alquiler</option>
+                            <option value="Permuta">Permuta</option>
+                            <option value="nada" selected>--Elegir--</option>
+                        </select>
+
+                    </div>
+
+                </div>
+
+                <div>
+                    <label for="txtDescripcion">Descripcion</label>
+                    <input placeholder="Descripcion" type="text" id="txtDescripcion" name="descripcion"
+                        required></input>
+                </div>
+
+                <div>
+                    <label for="numPrecio">Precio</label>
+                    <input placeholder="Precio" type="text" id="numPrecio" name="precio" required></input>
+                </div>
+
+                <div id="tresUltimos">
+
+                    <div class="divs">
+                        <label for="raza"><img src="./img/puertas.png" alt="puertas" class="icon"></label>
+                        <input placeholder="Puertas..." type="text" id="txtPuertas" name="num_puertas" required></input>
+                    </div>
+
+                    <div class="divs">
+                        <label for="fecha"><img src="./img/kms.png" alt="kms" class="icon"></label>
+                        <input placeholder="kms..." type="text" id="kms" name="num_KMs" required></input>
+                    </div>
+
+                    <div class="divs">
+                        <label for="fecha"><img src="./img/potencia.png" alt="motor" class="icon"></label>
+                        <input placeholder="Potencia..." type="text" id="txtPotencia" name="potencia" required></input>
+                    </div>
+
+
+                </div>
+
+                <br>
+                <button type="submit" id="btnCrearModificar" value="Guardar"><img src="./img/Guardar.png" alt=""
+                        class="icon"> Guardar</input>
+                    <button type="button" id="btnBorrar" hidden><img src="./img/Eliminar.png" alt="Imagen Eliminar"
+                            class="icon"> Eliminar</button>
+                    <button type="button" id="btnCancelar" hidden><img src="./img/Eliminar.png" alt="Imagen Cancelar"
+                            class="icon"> Cancelar</button>
+            </fieldset>
+        </form>
+
+        <fieldset>
+            <fieldset>
+                <legend>Filtros</legend>
+                <div>
+
+                    <div id="divFiltros">
+                        <select id="txtFiltros" name="filtros">
+                            <option value="Venta">Venta</option>
+                            <option value="Alquiler">Alquiler</option>
+                            <option value="nada" selected>N/A</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label id="lbProm" for="idAnuncio">Promedio</label>
+                        <input type="text" id="promedio" name="idAnuncio">
+                    </div>
+
+                </div>
+            </fieldset>
+
+            <div id="divChks">
+                <label><input type="checkbox" id="cboxId" checked value="first_checkbox"> ID </label>
+                <label><input type="checkbox" id="cboxTitulo" checked value="first_checkbox"> Titulo </label>
+                <label><input type="checkbox" id="cboxTransaccion" checked value="first_checkbox"> Transaccion </label>
+                <label><input type="checkbox" id="cboxDescripcion" checked value="first_checkbox"> Descripcion </label>
+                <label><input type="checkbox" id="cboxPrecio" checked value="first_checkbox"> Precio </label>
+                <label><input type="checkbox" id="num_puertas" checked value="first_checkbox"> Puertas </label>
+                <label><input type="checkbox" id="num_KMs" checked value="first_checkbox"> KMs </label>
+                <label><input type="checkbox" id="potencia" checked value="first_checkbox"> Potencia </label>
+            </div>
+            <br>
+            <div id="divTabla"></div>
+        </fieldset>
+
+    </div>
+    <br>
+
+    <footer>
+        <nav>
+            <a href="./nosotros.html">Nosotros</a>
+            <a href="./anuncios.html">Anuncios</a>
+            <a href="./blog.html">Blog</a>
+            <a href="./contacto.html">Contacto</a>
+        </nav>
+        <p>Todos los derechos reservados ©</p>
+    </footer>
+
+</body>
+
+</html>

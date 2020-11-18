@@ -1,0 +1,314 @@
+{
+  "anuncios": [
+    {
+      "id": 1,
+      "titulo": "Hyundai",
+      "transaccion": "Venta",
+      "descripcion": "Elantra",
+      "precio": "$41042",
+      "num_puertas": "5",
+      "num_KMs": "26325",
+      "potencia": "22032"
+    },
+    {
+      "id": 2,
+      "titulo": "Dodge",
+      "transaccion": "Venta",
+      "descripcion": "Daytona",
+      "precio": "$49840.21",
+      "num_puertas": 4,
+      "num_KMs": 127173,
+      "potencia": 10201
+    },
+    {
+      "id": 3,
+      "titulo": "BMW",
+      "transaccion": "Venta",
+      "descripcion": "X5",
+      "precio": "$21349.11",
+      "num_puertas": 5,
+      "num_KMs": 118925,
+      "potencia": 12313
+    },
+    {
+      "id": 4,
+      "titulo": "Volkswagen",
+      "transaccion": "Venta",
+      "descripcion": "Golf",
+      "precio": "$16287.90",
+      "num_puertas": 3,
+      "num_KMs": 121864,
+      "potencia": 21737
+    },
+    {
+      "id": 5,
+      "titulo": "Pontiac",
+      "transaccion": "Venta",
+      "descripcion": "Trans Sport",
+      "precio": "$38033.07",
+      "num_puertas": 3,
+      "num_KMs": 112174,
+      "potencia": 11388
+    },
+    {
+      "id": 6,
+      "titulo": "Mercedes-Benz",
+      "transaccion": "Venta",
+      "descripcion": "400E",
+      "precio": "$52337.63",
+      "num_puertas": 3,
+      "num_KMs": 135462,
+      "potencia": 11299
+    },
+    {
+      "id": 7,
+      "titulo": "Mercedes-Benz",
+      "transaccion": "Venta",
+      "descripcion": "E-Class",
+      "precio": "$37282.72",
+      "num_puertas": 3,
+      "num_KMs": 80050,
+      "potencia": 24993
+    },
+    {
+      "id": 8,
+      "titulo": "Ford",
+      "transaccion": "Venta",
+      "descripcion": "Model T",
+      "precio": "$58607.08",
+      "num_puertas": 4,
+      "num_KMs": 30391,
+      "potencia": 13236
+    },
+    {
+      "id": 9,
+      "titulo": "Ford",
+      "transaccion": "Venta",
+      "descripcion": "Explorer",
+      "precio": "$78953.84",
+      "num_puertas": 3,
+      "num_KMs": 77808,
+      "potencia": 24147
+    },
+    {
+      "id": 10,
+      "titulo": "Chevrolet",
+      "transaccion": "Venta",
+      "descripcion": "SSR",
+      "precio": "$46086.53",
+      "num_puertas": 5,
+      "num_KMs": 35435,
+      "potencia": 20290
+    },
+    {
+      "id": 11,
+      "titulo": "Pontiac",
+      "transaccion": "Venta",
+      "descripcion": "Trans Sport",
+      "precio": "$14596.93",
+      "num_puertas": 5,
+      "num_KMs": 148755,
+      "potencia": 20105
+    },
+    {
+      "id": 12,
+      "titulo": "BMW",
+      "transaccion": "Venta",
+      "descripcion": "M3",
+      "precio": "$37755.72",
+      "num_puertas": 3,
+      "num_KMs": 10933,
+      "potencia": 16133
+    },
+    {
+      "id": 13,
+      "titulo": "Toyota",
+      "transaccion": "Venta",
+      "descripcion": "Supra",
+      "precio": "$68977.72",
+      "num_puertas": 3,
+      "num_KMs": 96427,
+      "potencia": 12729
+    },
+    {
+      "id": 14,
+      "titulo": "Nissan",
+      "transaccion": "Venta",
+      "descripcion": "Frontier",
+      "precio": "$57482.01",
+      "num_puertas": 4,
+      "num_KMs": 91120,
+      "potencia": 17442
+    },
+    {
+      "id": 15,
+      "titulo": "Jaguar",
+      "transaccion": "Venta",
+      "descripcion": "XJ Series",
+      "precio": "$61624.06",
+      "num_puertas": 4,
+      "num_KMs": 41656,
+      "potencia": 9419
+    },
+    {
+      "id": 16,
+      "titulo": "Chevrolet",
+      "transaccion": "Venta",
+      "descripcion": "HHR",
+      "precio": "$27481.85",
+      "num_puertas": 4,
+      "num_KMs": 134,
+      "potencia": 10650
+    },
+    {
+      "id": 17,
+      "titulo": "Pontiac",
+      "transaccion": "Venta",
+      "descripcion": "G5",
+      "precio": "$55704.49",
+      "num_puertas": 5,
+      "num_KMs": 115777,
+      "potencia": 20491
+    },
+    {
+      "id": 18,
+      "titulo": "Mazda",
+      "transaccion": "Venta",
+      "descripcion": "B-Series",
+      "precio": "$87140.60",
+      "num_puertas": 4,
+      "num_KMs": 70605,
+      "potencia": 18360
+    },
+    {
+      "id": 19,
+      "titulo": "Dodge",
+      "transaccion": "Venta",
+      "descripcion": "Challenger",
+      "precio": "$92022.75",
+      "num_puertas": 3,
+      "num_KMs": 146346,
+      "potencia": 9249
+    },
+    {
+      "id": 20,
+      "titulo": "Mitsubishi",
+      "transaccion": "Venta",
+      "descripcion": "Starion",
+      "precio": "$80023.74",
+      "num_puertas": 4,
+      "num_KMs": 41344,
+      "potencia": 10460
+    },
+    {
+      "id": 21,
+      "titulo": "Ford",
+      "transaccion": "Venta",
+      "descripcion": "Mustang",
+      "precio": "$64802.79",
+      "num_puertas": 4,
+      "num_KMs": 109230,
+      "potencia": 23653
+    },
+    {
+      "id": 22,
+      "titulo": "Chevrolet",
+      "transaccion": "Venta",
+      "descripcion": "Malibu",
+      "precio": "$20082.34",
+      "num_puertas": 5,
+      "num_KMs": 10387,
+      "potencia": 10506
+    },
+    {
+      "id": 23,
+      "titulo": "Volvo",
+      "transaccion": "Venta",
+      "descripcion": "XC60",
+      "precio": "$31910.28",
+      "num_puertas": 3,
+      "num_KMs": 132268,
+      "potencia": 13296
+    },
+    {
+      "id": 24,
+      "titulo": "Dodge",
+      "transaccion": "Venta",
+      "descripcion": "Viper",
+      "precio": "$84423.84",
+      "num_puertas": 3,
+      "num_KMs": 65302,
+      "potencia": 11061
+    },
+    {
+      "id": 25,
+      "titulo": "Dodge",
+      "transaccion": "Venta",
+      "descripcion": "Ram 2500 Club",
+      "precio": "$10481.42",
+      "num_puertas": 5,
+      "num_KMs": 61193,
+      "potencia": 17837
+    },
+    {
+      "id": 26,
+      "titulo": "Mitsubishi",
+      "transaccion": "Venta",
+      "descripcion": "Pajero",
+      "precio": "$24286.27",
+      "num_puertas": 4,
+      "num_KMs": 101303,
+      "potencia": 11088
+    },
+    {
+      "id": 27,
+      "titulo": "Ford",
+      "transaccion": "Venta",
+      "descripcion": "E-Series",
+      "precio": "$19464.68",
+      "num_puertas": 3,
+      "num_KMs": 133029,
+      "potencia": 19611
+    },
+    {
+      "id": 28,
+      "titulo": "Dodge",
+      "transaccion": "Venta",
+      "descripcion": "Ram Van B350",
+      "precio": "$89923.44",
+      "num_puertas": 3,
+      "num_KMs": 52979,
+      "potencia": 20444
+    },
+    {
+      "id": 29,
+      "titulo": "Morgan",
+      "transaccion": "Venta",
+      "descripcion": "Aero 8",
+      "precio": "$68410.68",
+      "num_puertas": 4,
+      "num_KMs": 19500,
+      "potencia": 18791
+    },
+    {
+      "id": 31,
+      "titulo": "Cochazo",
+      "transaccion": "Alquiler",
+      "descripcion": "Alta Nave",
+      "precio": "12000",
+      "num_puertas": "4",
+      "num_KMs": "1500",
+      "potencia": "2500"
+    },
+    {
+      "id": 32,
+      "titulo": "Corsita",
+      "transaccion": "Permuta",
+      "descripcion": "Buen estado",
+      "precio": "80500",
+      "num_puertas": "4",
+      "num_KMs": "55000",
+      "potencia": "6000"
+    }
+  ]
+}
